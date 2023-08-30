@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    :root {
+      --primary-color: black;
+      --secondary-color: black;
+      --background-color:#71BCE1;
+      --text-color: #333333;
+    }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10%;
+    background-color:#71BCE1;
+    background-image:url(bg.jpg);
+   
+}
+
+h1 {
+    text-align: center;
+    font-variant: normal;
+    color: var(--secondary-color);
+    text-decoration-color: var(--secondary-color);
+}
+
+.input-section {
+    width: fit-content;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+
+.label-section {
+    width: fit-content;
+    text-decoration: wavy;
+    font-size: 0.5cm;
+    color: var(--secondary-color);
+}
+
+.div-section {
+    font-size: 18px;
+    width: fit-content;
+    height: 1cm;
+    border-radius: 8px;
+    margin: 0.5cm;
+}
+.div-section:focus{
+    border: 4px solid;
+    border-color: green;
+    box-shadow: 0 0 8px 0 green;
+}
+
+.preview {
+    width: 15cm;
+    height: auto;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.data-container {
+    max-height: auto;
+}
+
+.card {
+    border: 3px solid var(--text-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-header {    
+display:flex; 
+flex-direction: column; 
+align-items:center; 
+background-color: var(--primary-color);
+padding: 10px;
+border-radius: 6px;
+}
+
+.card-title {
+margin: 0;
+}
+
+.card-body {
+margin-top: 10px;
+display:flex; 
+flex-direction: column; 
+align-items:center; 
+}
